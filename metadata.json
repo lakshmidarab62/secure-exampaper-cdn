@@ -1,0 +1,6 @@
+{
+  "name": "SecureExam CDN - Digital Exam Paper Distribution",
+  "description": "High-concurrency digital exam paper distribution platform with edge CDN caching, adaptive request queueing, and secure student registration-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

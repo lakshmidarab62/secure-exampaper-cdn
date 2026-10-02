@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SecureExam CDN - Digital Exam Paper Distribution</title>
+    <meta name="description" content="High-concurrency digital exam paper distribution platform with edge CDN caching, adaptive request queueing, and secure student registration-based access control." />
+    <meta property="og:title" content="SecureExam CDN - Digital Exam Paper Distribution" />
+    <meta property="og:description" content="High-concurrency digital exam paper distribution platform with edge CDN caching, adaptive request queueing, and secure student registration-based access control." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+      if (window.pdfjsLib) {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
